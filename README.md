@@ -22,7 +22,10 @@ This guide explains how to track key AWS resources such as EC2 instances, S3 buc
 1. Locate your pem key in your file manager, then open your terminal there (this is an easier method)
    <img width="1600" height="835" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/43908526-9d0e-43bb-8d02-2d914ff936cc" />
 
-2. After accessing your terminal, input your ssh credentials. For AWS, it is usually in this format : **"ssh -i /path/to/your/key-pair.pem username@public_dns_or_ip"**
+2. After accessing your terminal, input your ssh credentials. For AWS, it is usually in this format :
+   ```shell
+   ssh -i /path/to/your/key-pair.pem username@public_dns_or_ip
+   ```
    ![Screenshot 2025-07-31 034116](https://github.com/user-attachments/assets/9c3521b6-f4f4-48c7-9854-18b88d281e96)
 
 ## 3. Create a Shell Script
