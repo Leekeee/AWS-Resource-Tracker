@@ -53,7 +53,7 @@ This guide explains how to track key AWS resources such as EC2 instances, S3 buc
    <img width="1366" height="302" alt="Screenshot (4)-1" src="https://github.com/user-attachments/assets/0f317f09-1ed3-44f3-a6dd-1f1d30f69dc6" />
 4. To access the cron job, input "**crontab -e**". Which should open a note editor in **Vi** or **Nano**
 5. Within the editor, input the command "__10 * * * * sh status_report.sh >> StatusFile.txt__". This will ensure the script is executed every tenth minute and the result is frequently stored into a text file known as **StatusFile.txt**
-6. Save the script ( use the "**wq!**" command for Vi and check online documentation for saving files in other note editors)
+6. Save the script ( use the "**:wq!**" command for Vi and check online documentation for saving files in other note editors)
 7. To check if the script has been saved, run the command "**crontab -l**" to list the available cron jobs
 8. For better execution of cron jobs, there are online tools (such as Crontab Guru) which ease the job of time allocation and other functions.
 
